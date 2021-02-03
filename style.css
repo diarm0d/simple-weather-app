@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+html {
+    box-sizing: border-box;
+  }
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: #060910;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Lato, sans-serif;
+}
+
+.main-container {
+    background-color:#0E1218;
+    border: 1px #30363d solid;
+    border-radius: 6px;
+    color: #cdd4dd;
+    width: 40vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 5px -5px rgba(255, 255, 255, 0.6);
+}
+
+.location-container {
+    font-size: 2.75em;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.fa-map-marker-alt,
+    .location, 
+    .weather-degree,
+    .tempature {
+    display: inline-block;
+}
+
+
+.tempature-container {
+    font-size: 6em;
+    display: block;
+}
+
+.weather-degree {
+    font-size: 0.8em;
+}
+
+.forecast-container {
+    font-size: 1.6em;
+    display: block;
+    padding: 5px;
+    padding-left: 20px;
+}
+
+.left-container {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5px;
+}
+
+.right-container {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:60px;
+    padding-left: 5px;
+}
+
+.weather-icon-container {
+    padding: 5px;
+    height: 60%;
+    width: 40%;
+    margin-top: 20px;
+}
+
+.weather-icon {
+    font-size: 6.5em;
+}
